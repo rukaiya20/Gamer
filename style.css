@@ -1,0 +1,79 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* common style */
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+/* header style*/
+
+/* menubar style */
+.menubar{
+    display: flex;
+    justify-content: space-between;
+    margin: 38px 20px 0px 20px;
+}
+/* logo style */
+.logo{
+    display: flex;
+}
+.logo img{
+    width: 86px;
+    height: 40px;
+    margin-top: 8px;
+}
+.logo h2{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 10px;
+}
+.logo-text{
+   color: #ff42a5;
+}
+/* menu item */
+.menu{
+    display: flex;
+}
+.menu ul li{
+    display: inline-block;
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 32px;
+}
+.menu ul li button{
+    display: inline-block;
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 18px 24px 16px;
+
+}
+.menu .youtube{
+    color: red;
+    font-size: 24px;
+    margin: -5px 16px 0px 24px;
+
+}
+.menu .tiktok{
+    font-size: 24px;
+}
+/* header style*/
