@@ -303,3 +303,109 @@
     margin-top: 24px;
 }
 /* Funny Videos style */
+/* Card-One style */
+.Card-One{
+    display: flex;
+    gap: 120px;
+    
+}
+.cardOne-Text {
+    margin-left: 240px;
+
+}
+.cardOne-Text h2{
+    margin-top: 280px;
+    width: 341px;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+
+}
+.cardOne-Text h2 span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.cardOne-Text p{
+    width: 356px;
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+     margin-right: 120px;
+}
+
+/* cardOne-images */
+.cardOne-images{
+    margin-top: 120px;
+    margin-right: 120px;
+}
+.cardOne-images img{
+    width: 100%;
+}
+.cardOne-images .image-two {
+    width: 270px;
+    margin-top: -250px;
+    margin-left: -165px;
+}
+/* /* Card-One style */ 
+.Card-two{
+    display: flex;
+    gap :60px; 
+}
+.cardtwo-Text {
+ margin-top: 300px;
+
+}
+.cardtwo-Text h2{
+    width: 341px;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin-left: 60px;
+
+}
+.cardtwo-Text h2 span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.cardtwo-Text p{
+    width: 356px;
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 40px; 
+  
+}
+.cardtwo-images{
+    margin-top: 120px;
+    margin-left: 60px;
+}
+.cardtwo-images img{
+    width: 100%;
+}
+.cardtwo-images .image-one {
+    width: 600px;
+}
+.cardtwo-images .image-two {
+    width: 300px;
+    margin-top: -180px;
+    margin-left: 390px;
+    margin-right: 0px;
+}
